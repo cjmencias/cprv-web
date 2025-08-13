@@ -70,7 +70,7 @@ export default function CPRVPhase1Site() {
               Turning customer data into <span className="text-blue-700">lasting loyalty</span>
             </motion.h1>
             <p className="mt-5 text-base leading-relaxed text-slate-700 md:text-lg">
-              We help <strong>hotel</strong> and <strong>beauty</strong> brands use their data to build stronger relationships, increase loyalty, and drive repeat purchases — combining the right technology with expert human support.
+              We help <strong>hotel</strong> and <strong>beauty</strong> brands use their data to build stronger relationships, increase loyalty, and drive repeat purchases, combining the right technology with expert human support.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-3">
               <CTAButton>
@@ -177,7 +177,7 @@ export default function CPRVPhase1Site() {
                 <Workflow className="text-green-600" />
                 <div>
                   <h3 className="font-semibold">Campaign planning</h3>
-                  <p className="mt-2 text-sm text-slate-700">From idea to inbox — journeys, offers and creative QA with clear ROI.</p>
+                  <p className="mt-2 text-sm text-slate-700">From idea to inbox, journeys, offers and creative QA with clear ROI.</p>
                 </div>
               </div>
             </Card>
@@ -188,7 +188,7 @@ export default function CPRVPhase1Site() {
             {[
               { icon: <Heart className="text-blue-700" />, title: "Consultative", desc: "We start with your goals and constraints to shape the right approach." },
               { icon: <Rocket className="text-amber-600" />, title: "Fast to value", desc: "Phase‑based delivery to show results early and often." },
-              { icon: <LineChart className="text-emerald-600" />, title: "Impact‑focused", desc: "We track what matters — retention, frequency, and CLV uplift." },
+              { icon: <LineChart className="text-emerald-600" />, title: "Impact‑focused", desc: "We track what matters, retention, frequency, and CLV uplift." },
             ].map((item) => (
               <Card key={item.title}>
                 <div className="flex items-start gap-3">
